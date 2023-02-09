@@ -5,26 +5,52 @@
 }
 
 body {
+    display: flex;  /* para centralizar a DIV */
+    justify-content: center;  /* para centralizar a DIV pincipal todolist */
+  
+    align-items: center;  /* para centralizar a DIV pincipal todolist */
+    height: 100vh;  /* Ajustar a autula da tela para centralizar a DIV pincipal todolist */
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
     background-color: hsl(212, 45%, 89%);
+    
 }
 
 .container {
+    display: block;
     background-color: white;
+    height: 550px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%; /* para centralizar a DIVC pincipal todolist */
+    max-width: 350px;
+    
 }
 
 .qrcode {
+    display: block;
+    margin: auto;
     height: 300px;
+    border-radius: 10px;
+    align-items: center;
+}
 
+.text {
+    display: block;
+    margin: auto;
+    width: 300px;
 }
 
 h1 {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    padding-bottom: 30px;
+    font-size: 17px;
+    text-align: center;
 }
 
 h2 {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    text-align: center;
 }
